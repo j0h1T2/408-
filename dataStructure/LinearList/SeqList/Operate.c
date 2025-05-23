@@ -38,3 +38,7 @@ int LocateElem (SeqList *L, ElemType e) {
     return 0;
 }
 
+//取出元素
+ElemType GetElem (SeqList *L, int i) {
+    return L->data[i+1];
+}

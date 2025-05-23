@@ -13,6 +13,8 @@ void InitList (SeqList *L);
 
 bool ListInsert (SeqList *L, int i, ElemType e);
 
-bool ListDelete (SeqList *L, int i);
+bool ListDelete (SeqList *L, int i, ElemType *e);
 
 int LocalElem (SeqList *L, ElemType e);
+
+ElemType GetElem (SeqList *L, int i);
