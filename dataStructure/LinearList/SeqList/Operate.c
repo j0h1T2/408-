@@ -1,5 +1,5 @@
 #include "operate.h"
-
+#include<stdlib.h>
 //初始化
 void InitList (SeqList *L) {
     L->data = (ElemType *)malloc(sizeof(ElemType) * MaxSize);
