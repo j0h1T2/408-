@@ -39,9 +39,9 @@ int LocateElem (SeqList *L, ElemType e) {
     return 0;
 }
 
-//取出元素
+//取出第i个元素
 ElemType GetElem (SeqList *L, int i) {
-    return L->data[i+1];
+    return L->data[i-1];
 }
 
 //增加动态数组的长度
