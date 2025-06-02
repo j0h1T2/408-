@@ -22,7 +22,7 @@ bool ListInsert (SeqList *L, int i, ElemType e) {
 
 //删除元素
 bool ListDelete (SeqList *L, int i, ElemType *e) {
-    if (i < 1 || i > L->length + 1) 
+    if (i < 1 || i > L->length) 
         return false;
     *e = L->data[i-1];  //将删除的值赋给e，从而可以使得被删元素可以通过参数返回
     for (int j = i; j < L->length; j++)
