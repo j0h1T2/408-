@@ -5,7 +5,7 @@ typedef int ElemType;
 #include<stdbool.h>
 
 typedef struct {
-    ElemType *data;
+    ElemType *data;  //动态内存
     int length;
     int MaxSize;
 }SeqList;
